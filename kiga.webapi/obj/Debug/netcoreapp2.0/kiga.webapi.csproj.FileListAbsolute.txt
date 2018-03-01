@@ -1,0 +1,14 @@
+C:\batatas\kiga.solution\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.deps.json
+C:\batatas\kiga.solution\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.runtimeconfig.json
+C:\batatas\kiga.solution\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.runtimeconfig.dev.json
+C:\batatas\kiga.solution\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.dll
+C:\batatas\kiga.solution\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.pdb
+C:\batatas\kiga.solution\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.domain.dll
+C:\batatas\kiga.solution\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.repository.dll
+C:\batatas\kiga.solution\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.domain.pdb
+C:\batatas\kiga.solution\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.repository.pdb
+C:\batatas\kiga.solution\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.csproj.CoreCompileInputs.cache
+C:\batatas\kiga.solution\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.AssemblyInfoInputs.cache
+C:\batatas\kiga.solution\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.AssemblyInfo.cs
+C:\batatas\kiga.solution\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.dll
+C:\batatas\kiga.solution\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.pdb
