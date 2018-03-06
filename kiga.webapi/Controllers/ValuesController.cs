@@ -14,9 +14,8 @@ namespace kiga.webapi.Controllers
         
 
         // GET api/values
-        [HttpGet, Route("Wit")]
         
-
+        
         // GET api/values/5
         /* [HttpGet("{id}")]
         public string Get(int id)

@@ -1,11 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using kiga.domain.Contracts;
 using kiga.domain.Entities;
 using kiga.repository.Context;
 using Microsoft.EntityFrameworkCore;
-
+using Newtonsoft.Json.Linq;
 
 namespace kiga.repository.Repositories
 {
@@ -96,6 +98,39 @@ namespace kiga.repository.Repositories
             }
         }
 
+        public string Teste(string msg)
+        {
+            HttpWebRequest WebReq = (HttpWebRequest)WebRequest.CreateHttp("https://api.wit.ai/message?v=6/3/2018&q="+msg);
+
+            WebReq.Method = "GET";
+            WebReq.Headers.Add("Authorization", "Bearer VKULQK77FU3ERLHXTFJZJA6ZNKMV7P7V");
+
+            HttpWebResponse WebResp = (HttpWebResponse)WebReq.GetResponse();
+
+            Console.WriteLine(WebResp.StatusCode);
+            Console.WriteLine(WebResp.Server);
+
+            string jsonString;
+            using (Stream stream = WebResp.GetResponseStream())
+            {
+                StreamReader reader = new StreamReader(stream, System.Text.Encoding.UTF8);
+                jsonString = reader.ReadToEnd();
+
+
+
+                /* JObject o = JObject.Parse(jsonString);
+
+                var jsonestados = (JArray)o["estados"];
+
+                for (int i = 0; i < jsonestados.Count; i++)
+                {
+                    var sigla = jsonestados[i].SelectToken("sigla");
+                    var nome = jsonestados[i].SelectToken("nome");
+                } */
+                return jsonString;
+
+            }
+        }
 
 
         /* 

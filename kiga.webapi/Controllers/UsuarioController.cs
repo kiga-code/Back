@@ -4,6 +4,7 @@ using kiga.domain.Contracts;
 using kiga.domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace kiga.webapi.Controllers
 {
@@ -121,6 +122,13 @@ namespace kiga.webapi.Controllers
                 id = _UsuarioRepository.BuscarFacebookId(user.facebookId).id
             };
             return Json(User);
+        }
+
+        [HttpGet("{msg}")]
+        public JsonResult Get(string msg){
+           var rt = _UsuarioRepository.Teste(msg);
+           JObject o = JObject.Parse(rt);
+           return Json(o);
         }
     }
 }

@@ -10,6 +10,6 @@ namespace kiga.domain.Contracts
         int Deletar(T dados);
         T BuscarId(int id);
         T BuscarFacebookId(string id);
-        
+        string Teste(string msg);      
     }
 }
