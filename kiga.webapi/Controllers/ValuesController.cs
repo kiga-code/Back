@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,19 +10,19 @@ namespace kiga.webapi.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+
+        
+
         // GET api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        [HttpGet, Route("Wit")]
+        
 
         // GET api/values/5
-        [HttpGet("{id}")]
+        /* [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
-        }
+        } */
 
         // POST api/values
         [HttpPost]

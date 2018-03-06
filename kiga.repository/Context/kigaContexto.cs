@@ -12,7 +12,7 @@ namespace kiga.repository.Context
         public DbSet<UsuarioDomain> Usuarios { get; set;}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder){
-            modelBuilder.Entity<UsuarioDomain>().ToTable("Usuarios");
+            modelBuilder.Entity<UsuarioDomain>().ToTable("Usuarios").HasIndex(i => new { i.facebookId}).IsUnique(true);
         }
     }
 }

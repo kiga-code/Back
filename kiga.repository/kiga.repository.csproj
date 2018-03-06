@@ -4,6 +4,10 @@
     <ProjectReference Include="..\kiga.domain\kiga.domain.csproj" />
   </ItemGroup>
 
+  <PropertyGroup>
+    <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.0.1" />

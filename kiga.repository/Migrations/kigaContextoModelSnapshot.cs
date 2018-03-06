@@ -22,13 +22,30 @@ namespace kiga.repository.Migrations
 
             modelBuilder.Entity("kiga.domain.Entities.UsuarioDomain", b =>
                 {
-                    b.Property<int>("IdUsuario")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("FacebookId")
+                    b.Property<DateTime?>("created_at")
+                        .IsRequired()
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("facebookId")
                         .IsRequired();
 
-                    b.HasKey("IdUsuario");
+                    b.Property<string>("firstName")
+                        .IsRequired()
+                        .HasMaxLength(50);
+
+                    b.Property<string>("lastName")
+                        .IsRequired()
+                        .HasMaxLength(120);
+
+                    b.Property<string>("token");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("facebookId")
+                        .IsUnique();
 
                     b.ToTable("Usuarios");
                 });

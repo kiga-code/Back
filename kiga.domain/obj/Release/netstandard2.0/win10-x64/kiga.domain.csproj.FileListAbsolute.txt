@@ -1,0 +1,8 @@
+C:\batatas\kiga.solution\kiga.domain\bin\Release\netstandard2.0\win10-x64\kiga.domain.deps.json
+C:\batatas\kiga.solution\kiga.domain\bin\Release\netstandard2.0\win10-x64\kiga.domain.dll
+C:\batatas\kiga.solution\kiga.domain\bin\Release\netstandard2.0\win10-x64\kiga.domain.pdb
+C:\batatas\kiga.solution\kiga.domain\obj\Release\netstandard2.0\win10-x64\kiga.domain.csproj.CoreCompileInputs.cache
+C:\batatas\kiga.solution\kiga.domain\obj\Release\netstandard2.0\win10-x64\kiga.domain.AssemblyInfoInputs.cache
+C:\batatas\kiga.solution\kiga.domain\obj\Release\netstandard2.0\win10-x64\kiga.domain.AssemblyInfo.cs
+C:\batatas\kiga.solution\kiga.domain\obj\Release\netstandard2.0\win10-x64\kiga.domain.dll
+C:\batatas\kiga.solution\kiga.domain\obj\Release\netstandard2.0\win10-x64\kiga.domain.pdb

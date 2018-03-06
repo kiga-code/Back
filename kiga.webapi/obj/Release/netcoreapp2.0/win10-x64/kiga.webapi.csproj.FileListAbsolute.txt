@@ -1,0 +1,17 @@
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\hostpolicy.dll
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\hostfxr.dll
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.webapi.exe
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.webapi.deps.json
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.webapi.runtimeconfig.json
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.webapi.runtimeconfig.dev.json
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.webapi.dll
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.webapi.pdb
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.domain.dll
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.repository.dll
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.domain.pdb
+C:\batatas\kiga.solution\kiga.webapi\bin\Release\netcoreapp2.0\win10-x64\kiga.repository.pdb
+C:\batatas\kiga.solution\kiga.webapi\obj\Release\netcoreapp2.0\win10-x64\kiga.webapi.csproj.CoreCompileInputs.cache
+C:\batatas\kiga.solution\kiga.webapi\obj\Release\netcoreapp2.0\win10-x64\kiga.webapi.AssemblyInfoInputs.cache
+C:\batatas\kiga.solution\kiga.webapi\obj\Release\netcoreapp2.0\win10-x64\kiga.webapi.AssemblyInfo.cs
+C:\batatas\kiga.solution\kiga.webapi\obj\Release\netcoreapp2.0\win10-x64\kiga.webapi.dll
+C:\batatas\kiga.solution\kiga.webapi\obj\Release\netcoreapp2.0\win10-x64\kiga.webapi.pdb

@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using kiga.domain.Contracts;
 using kiga.repository.Context;
+using kiga.repository.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +17,7 @@ namespace kiga.webapi
 {
     public class Startup
     {
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -26,6 +29,11 @@ namespace kiga.webapi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<kigaContexto>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            
+
+            services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
+
             services.AddMvc();
         }
 
