@@ -87,7 +87,6 @@ namespace kiga.webapi.Controllers
                 return BadRequest("Falha ao tentar atualizar usuário. " + e.Message);
             }
         }
-
         /* [HttpPost]
         public IEnumerable<string> TestePost()
         {
@@ -123,7 +122,7 @@ namespace kiga.webapi.Controllers
             };
             return Json(User);
         }
-
+ 
         [HttpGet("{msg}")]
         public JsonResult Get(string msg){
            var rt = _UsuarioRepository.Teste(msg);
