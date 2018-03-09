@@ -28,7 +28,7 @@ namespace Autenticacao_EF_JWT.Controllers
         public LoginController(kigaContexto contexto)
         {
             _contexto = contexto;
-        }
+        } 
 
         [AllowAnonymous]
         [HttpPost]

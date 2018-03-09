@@ -12,3 +12,17 @@ C:\batatas\kiga.solution\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.Assembl
 C:\batatas\kiga.solution\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.AssemblyInfo.cs
 C:\batatas\kiga.solution\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.dll
 C:\batatas\kiga.solution\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.pdb
+C:\~~\testes\kiga.solution.testes\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.deps.json
+C:\~~\testes\kiga.solution.testes\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.runtimeconfig.json
+C:\~~\testes\kiga.solution.testes\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.runtimeconfig.dev.json
+C:\~~\testes\kiga.solution.testes\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.dll
+C:\~~\testes\kiga.solution.testes\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.webapi.pdb
+C:\~~\testes\kiga.solution.testes\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.domain.dll
+C:\~~\testes\kiga.solution.testes\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.repository.dll
+C:\~~\testes\kiga.solution.testes\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.domain.pdb
+C:\~~\testes\kiga.solution.testes\kiga.webapi\bin\Debug\netcoreapp2.0\kiga.repository.pdb
+C:\~~\testes\kiga.solution.testes\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.csproj.CoreCompileInputs.cache
+C:\~~\testes\kiga.solution.testes\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.AssemblyInfoInputs.cache
+C:\~~\testes\kiga.solution.testes\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.AssemblyInfo.cs
+C:\~~\testes\kiga.solution.testes\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.dll
+C:\~~\testes\kiga.solution.testes\kiga.webapi\obj\Debug\netcoreapp2.0\kiga.webapi.pdb
